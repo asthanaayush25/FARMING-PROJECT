@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html>
+<head>
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+<script>
+$(document).ready(function(){
+  $("#hide").click(function(){
+    $("#p").hide();
+  });
+  $("#show").click(function(){
+    $("#p").toggle();
+  });
+});
+</script>
+</head>
+<body>
+
+<div class="container " style="margin-top: 20px; position:relative;">
+      <div class="row ">
+       
+        <div class="col-lg-6 col-md- mx-auto">
+          <div class="card text-center">
+            <div class="card block border border-danger border-2" id="p" style="z-index: 1;">
+              
+                 <div>
+                
+                
+                
+                  <form class="" >
+                    <div >
+                      <input type="text" name="produce" placeholder="PRODUCE" class="formfeed" >
+                    <input type="number" name="wkg" placeholder="
+                    WEIGHT IN KG" class="formfeed" style="style:`width=36%;">
+                    <input type="number" name="price" placeholder="PRICE YOU WANT" class="formfeed" style="style:`width=36%;">
+                    
+                    <button class="btn btn-md btnedit border border-danger border-2 cardx" type="button" >SUBMIT</button>
+                    
+                    </div> 
+
+                  </form>
+                  </div>
+            </div>
+                                        
+          </div>
+          
+        </div>
+      
+<button id="show">b</button>
+  
+
+</body>
+</html>
